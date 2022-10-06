@@ -48,5 +48,15 @@ catch
 }
 
 //Small note, F1 and typing in Format document, indents everything for you
+//Small While Do loop
+char choice;
+do
+{
+    Console.WriteLine("Hello");
+    Console.WriteLine("Would you like to continue?");
+    choice = Convert.ToChar(Console.ReadLine());
+}
+while(choice != 'N');
+//"While the choice variable is not N, repeat the above print statements 
 
 Console.ReadLine();
